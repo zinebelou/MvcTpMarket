@@ -9,3 +9,5 @@ const ProductSchema = new mongoosee.Schema({
     price: { type: Number, required: true },
 }, { timestamps: true });
 module.exports = mongoosee.model('Product', ProductSchema);
+
+
